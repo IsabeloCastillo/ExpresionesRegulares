@@ -1,0 +1,4 @@
+texto = "El precio es de 12.50 euros"
+patron = r'\b\d+\.\d+\b'
+numeros_decimales = re.findall(patron, texto)
+print(numeros_decimales)
