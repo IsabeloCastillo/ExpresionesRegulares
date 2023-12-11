@@ -1,0 +1,4 @@
+texto = "Mi coche tiene la matrícula 1234-BCD"
+patron = r'\b\d{4}-[BCDFGHJKLMNPRSTVWXYZ]{3}\b'
+matriculas = re.findall(patron, texto)
+print(matriculas)
