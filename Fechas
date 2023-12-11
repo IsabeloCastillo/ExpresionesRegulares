@@ -1,0 +1,9 @@
+import re
+
+texto = "Las fechas importantes son 12/05/2021 y 03/08/2022. Sin embargo, el 13/13/2021 es una fecha incorrecta."
+patron = r'\b[0-3]?[0-9]/[0-1]?[0-9]/[1-2][0-9]{3}\b'
+
+# Buscar todas las ocurrencias del patrón en el texto
+fechas = re.findall(patron, texto)
+
+print(fechas)
