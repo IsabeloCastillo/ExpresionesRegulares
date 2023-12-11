@@ -1,0 +1,4 @@
+texto = "Nací en 1983 y mi hermana en 1977"
+patron = r'\b(19\d{2})\b'
+años = re.findall(patron, texto)
+print(años)
