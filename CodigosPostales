@@ -1,0 +1,6 @@
+import re
+
+texto = "Mi código postal es 28039 y el de la oficina es 28040"
+patron = r'\b\d{5}\b'
+codigos_postales = re.findall(patron, texto)
+print(codigos_postales)
