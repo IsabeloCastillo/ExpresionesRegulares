@@ -1,0 +1,9 @@
+import re
+
+texto = "Hola, mi correo es ejemplo@correo.com y mi trabajo es en otrocorreo@trabajo.org"
+patron = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b'
+
+# Buscar todas las ocurrencias del patrón en el texto
+correos = re.findall(patron, texto)
+
+print(correos)
