@@ -1,0 +1,4 @@
+texto = "Visita mi sitio en http://www.ejemplo.com"
+patron = r'https?://\S+'
+urls = re.findall(patron, texto)
+print(urls)
