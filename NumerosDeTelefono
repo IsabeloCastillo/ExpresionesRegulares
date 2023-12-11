@@ -1,0 +1,9 @@
+import re
+
+texto = "Mis contactos son (95) 456-7890, 987-654-321, pero el 000-000-000 es un número falso."
+patron = r'\(?\b\d{3}\)?[-.]?\s?\d{3}[-.]?\d{4}\b'
+
+# Buscar todas las ocurrencias del patrón en el texto
+numeros_telefono = re.findall(patron, texto)
+
+print(numeros_telefono)
