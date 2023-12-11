@@ -10,4 +10,4 @@
 
 - **Análisis de Texto**: Pueden ser utilizadas para analizar grandes volúmenes de texto y extraer información relevante.
 
-Esta habilidad es particularmente valiosa en campos como el procesamiento de datos, desarrollo web, análisis de logs y seguridad informática, donde la manipulación y análisis de texto es una tarea común
+Esta habilidad es particularmente valiosa en campos como el procesamiento de datos, desarrollo web, análisis de logs y seguridad informática, donde la manipulación y análisis de texto es una tarea común.
